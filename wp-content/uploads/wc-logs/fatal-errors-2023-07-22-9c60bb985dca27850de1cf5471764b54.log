@@ -1,0 +1,9 @@
+2023-07-22T23:42:05+00:00 CRITICAL Uncaught Error: Class 'madxartwork\Scheme_Color' not found in D:\xampp74\htdocs-gudang\wp-content\plugins\anywhere-madxartwork-pro\includes\modules\post-author\widgets\ae-author.php:369
+Stack trace:
+#0 D:\xampp74\htdocs-gudang\wp-content\plugins\anywhere-madxartwork-pro\includes\modules\post-author\widgets\ae-author.php(114): Aepro\Modules\Author\Widgets\AeAuthor->render_author_meta_style_controls()
+#1 D:\xampp74\htdocs-gudang\wp-content\plugins\madxartwork\includes\base\controls-stack.php(2327): Aepro\Modules\Author\Widgets\AeAuthor->_register_controls()
+#2 D:\xampp74\htdocs-gudang\wp-content\plugins\madxartwork\includes\base\controls-stack.php(496): madxartwork\Controls_Stack->init_controls()
+#3 D:\xampp74\htdocs-gudang\wp-content\plugins\madxartwork\includes\base\widget-base.php(177): madxartwork\Controls_Stack->get_stack()
+#4 D:\xampp74\htdocs-gudang\wp-content\plugins\madxartwork\includes\managers\widgets.php(368): madxartwork\Widget_Base->get_stack(false)
+#5 [internal function]: madxartwork\Widgets_Mana
+
